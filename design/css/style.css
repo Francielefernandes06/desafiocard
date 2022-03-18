@@ -1,0 +1,104 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 49px;
+    border-radius: 20px;
+    width: 350px;
+    height: 594px;
+}
+
+
+ .card .equilibrium {
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.card h1{
+    height: 600px;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 28px;
+    margin-left: 25px;    
+}
+.card .descricao{
+    height: 300px;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 22px;
+    margin-left: 25px;
+}
+
+.card .info{
+    display: flex;
+    gap: 90px;
+}
+
+.card .info .ethereum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    gap: 5px;
+}
+
+.card .info .ethereum img{
+    height: 16px;
+    margin-top: 28px;
+}
+.card .info .ethereum h2{
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    margin-top: 28px;
+    /* margin-right: 50px; */
+}
+
+.card .info .dias{
+    display: flex;
+    margin-left: 25px;
+    flex-direction: row;
+    align-items: center; 
+    gap: 5px;
+}
+
+.card .info .dias img{
+    height: 16px;
+    margin-top: 28px;
+}
+.card .info .dias h2{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin-top: 28px;
+    
+}
+
+.card .creation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+    /* margin-bottom: 31px; */
+
+}
+
+.card .creation img {
+    height: 33px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.card .creation h2 {
+    font-size: 16px;
+    height: 33px;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+    
+    
+}
+.attribution {
+    margin-top: 15px;
+}
